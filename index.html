@@ -1,8 +1,24 @@
-<strong>Mucho laburo profe.</strong> <br>
-<style>.animacion.gif {
-  background-image: url('animacion.gif');
-  background-size: cover; /* Para que cubra todo el espacio */
-  background-position: center;
-  height: 400px;
-}
- 
+<style>
+  body {
+    /* Ruta del archivo */
+    background-image: url('animacion.gif');
+
+    /* Asegura que el fondo cubra toda la pantalla */
+    background-size: cover;
+
+    /* Evita que la imagen se repita si es pequeña */
+    background-repeat: no-repeat;
+
+    /* Mantiene el fondo fijo al hacer scroll */
+    background-attachment: fixed;
+
+    /* Centra la animación */
+    background-position: center;
+
+    /* Color de respaldo por si el GIF no carga */
+    background-color: #000000; 
+    
+    margin: 0;
+    padding: 0;
+  }
+</style>
